@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Client1Controller">
+   <children>
+      <Button fx:id="filePicker" layoutX="389.0" layoutY="385.0" mnemonicParsing="false" onAction="#getFilePicker" prefHeight="25.0" prefWidth="150.0" text="Choose File Individually" />
+      <TextField fx:id="textfile" layoutX="63.0" layoutY="385.0" prefHeight="25.0" prefWidth="226.0" />
+      <ListView fx:id="ListFile" layoutX="76.0" layoutY="88.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="107.0" layoutY="47.0" prefHeight="17.0" prefWidth="95.0" text="Types of File" />
+      <TextField fx:id="textdir" layoutX="61.0" layoutY="325.0" prefHeight="25.0" prefWidth="226.0" />
+      <Button fx:id="syncDir" layoutX="383.0" layoutY="325.0" mnemonicParsing="false" onAction="#getDirChooser" text="Choose Directory to Sync" />
+      <Label layoutX="324.0" layoutY="368.0" text="OR" />
+      <Button fx:id="exit" layoutX="519.0" layoutY="88.0" mnemonicParsing="false" onAction="#exitfired" text="Exit" />
+      <Button fx:id="redo" layoutX="566.0" layoutY="350.0" mnemonicParsing="false" onAction="#redoFired" text="Redo" />
+   </children>
+</AnchorPane>

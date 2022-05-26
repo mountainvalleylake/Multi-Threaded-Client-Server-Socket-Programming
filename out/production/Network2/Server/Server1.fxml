@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Server.Server1Controller">
+   <children>
+      <Button fx:id="DirectoryButton" layoutX="64.0" layoutY="110.0" mnemonicParsing="false" onAction="#chooseDirectory" prefHeight="25.0" prefWidth="143.0" text="Choose Root Directory" />
+      <TextField fx:id="directory" layoutX="61.0" layoutY="70.0" prefHeight="25.0" prefWidth="261.0" />
+   </children>
+</AnchorPane>
